@@ -1,0 +1,95 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  li{
+    padding: 10px;
+      border-bottom: 1px solid whitesmoke;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+  
+  span{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .input{
+    border-radius: 2px;
+    margin: 10px;
+      outline: 0;
+      border: none;
+      height: 29px;
+      padding: 0px 20px;
+      width: 80%;
+  }
+  
+  .lists__area{
+    color: white;
+  }
+  
+  .lists{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: 10px;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-float infinite 3s ease-in-out;
+    }
+  }
+  
+  .box{
+    min-width: 360px;
+    border: 1px solid transparent;
+    background-color: teal;
+    border-radius: 5px;
+    min-height: 400px;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .App-link {
+    color: rgb(112, 76, 182);
+  }
+  
+  @keyframes App-logo-float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px)
+    }
+    100% {
+      transform: translateY(0px)
+    }
+  }
+  
+
+  .submit__button{
+    color: teal;
+    background: #ffff;
+    border: none;
+    border-radius: 4px;
+  }
